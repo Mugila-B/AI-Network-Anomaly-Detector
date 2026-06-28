@@ -43,7 +43,7 @@ The project includes a sample dataset (`network_data.csv`) for testing when live
 Clone the repository and run the project:
 
 ```bash
-git clone https://github.com/yourusername/AI-Network-Anomaly-Detector.git
+git clone https://github.com/Mugila-B/AI-Network-Anomaly-Detector.git
 cd AI-Network-Anomaly-Detector
 pip install -r requirements.txt
 streamlit run app.py
