@@ -93,7 +93,7 @@ streamlit run app.py
 
 ### Network Anomaly Detection Dashboard
 
-<img width="1917" height="967" alt="image" src="https://github.com/user-attachments/assets/f8206a85-a4ab-4a3a-8b37-8eaf3788e396" />
+<img width="1600" height="741" alt="WhatsApp Image 2026-06-28 at 5 40 23 PM" src="https://github.com/user-attachments/assets/77fe40b7-0070-4b4f-bf13-c28ba5eca9c0" />
 
 
 ---
