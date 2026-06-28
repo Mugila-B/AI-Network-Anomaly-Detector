@@ -53,7 +53,7 @@ AI-Network-Anomaly-Detector/
 ├── live_capture.py        # Live packet capture
 ├── network_data.csv       # Sample dataset
 ├── requirements.txt
-├── output.png             # Dashboard output
+├── output.jpeg             # Dashboard output
 ├── README.md
 └── LICENSE
 ```
