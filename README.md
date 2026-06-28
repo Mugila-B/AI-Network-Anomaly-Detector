@@ -1,8 +1,12 @@
 # AI-Powered Network Anomaly Detection and Monitoring System
 
+
+<img width="1600" height="741" alt="image" src="https://github.com/user-attachments/assets/83b2521c-bc0e-4bcf-b4d5-b98a3b88643c" />
+
+
 ## Description
 
-This project is an AI-powered network monitoring system that detects abnormal network traffic patterns using machine learning techniques. It combines real-time packet monitoring, anomaly detection, and interactive visualization to identify suspicious network activities.
+This project is an AI-powered network monitoring and anomaly detection system that identifies suspicious network traffic using the Isolation Forest machine learning algorithm. It combines real-time packet capture, anomaly detection, and interactive visualization to help monitor network activity efficiently.
 
 ---
 
@@ -10,7 +14,7 @@ This project is an AI-powered network monitoring system that detects abnormal ne
 
 * Real-time network packet monitoring
 * Machine learning-based anomaly detection
-* Detection of abnormal traffic patterns
+* Detects anomalous network traffic patterns
 * Interactive Streamlit dashboard
 * Traffic visualization using Plotly
 * Risk level classification
@@ -31,6 +35,11 @@ This project is an AI-powered network monitoring system that detects abnormal ne
 * Streamlit
 * Scapy
 * Plotly
+
+---
+## Dataset
+
+The project includes a sample dataset (`network_data.csv`) for testing and demonstration purposes. It can also analyze live network traffic captured using Scapy.
 
 ---
 
@@ -87,16 +96,6 @@ streamlit run app.py
 4. Detects abnormal traffic patterns and classifies them as anomalies.
 5. Displays the results through an interactive Streamlit dashboard with visual charts.
 
----
-
-## Output
-
-### Network Anomaly Detection Dashboard
-
-<img width="1600" height="741" alt="image" src="https://github.com/user-attachments/assets/83b2521c-bc0e-4bcf-b4d5-b98a3b88643c" />
-
-
----
 
 ## Applications
 
