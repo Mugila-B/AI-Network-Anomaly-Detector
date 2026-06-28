@@ -1,8 +1,6 @@
 # AI-Powered Network Anomaly Detection and Monitoring System
 
-
-<img width="1600" height="741" alt="image" src="https://github.com/user-attachments/assets/83b2521c-bc0e-4bcf-b4d5-b98a3b88643c" />
-
+<img src="output.jpeg" alt="Network Anomaly Detection Dashboard" width="1000">
 
 ## Description
 
