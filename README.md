@@ -1,63 +1,133 @@
-# AI Network Anomaly Detector
+# AI-Powered Network Anomaly Detection and Monitoring System
 
-## About the Project
-This project is a network monitoring and anomaly detection system built using Python. It captures network traffic, checks request patterns, and finds unusual activities using the Isolation Forest algorithm.
+## Description
 
-The project also provides a dashboard using Streamlit to monitor live traffic, view analysis graphs, and detect suspicious activities.
+This project is an AI-powered network monitoring system that detects abnormal network traffic patterns using machine learning techniques. It combines real-time packet monitoring, anomaly detection, and interactive visualization to identify suspicious network activities.
+
+---
 
 ## Features
-- Live network traffic monitoring
-- Packet capturing using Scapy
-- Detection of abnormal traffic patterns
-- Risk level classification
-- Traffic analysis graphs
-- Threat alerts
-- Downloadable reports
+
+* Real-time network packet monitoring
+* Machine learning-based anomaly detection
+* Detection of abnormal traffic patterns
+* Interactive Streamlit dashboard
+* Traffic visualization using Plotly
+* Risk level classification
+* Live packet capturing using Scapy
+* Modular Python implementation
+* Sample dataset for testing
+
+---
 
 ## Technologies Used
-- Python
-- Streamlit
-- Pandas
-- Scikit-learn
-- Plotly
-- Scapy
 
-## Project Files
-- `app.py` – Main Streamlit dashboard
-- `model.py` – Detection model logic
-- `live_capture.py` – Captures live packets
-- `network_data.csv` – Sample traffic dataset
+* Python
+* Machine Learning
+* Isolation Forest Algorithm
+* Scikit-learn
+* Pandas
+* NumPy
+* Streamlit
+* Scapy
+* Plotly
 
-## How It Works
-1. Captures live network packets or loads sample data.
-2. Extracts request count and data size.
-3. Applies Isolation Forest for anomaly detection.
-4. Labels traffic as normal or anomaly.
-5. Displays results in the dashboard and charts.
+---
 
-## Dataset
-The project includes a sample dataset (`network_data.csv`) for testing when live traffic is not available.
+## Project Structure
 
-## Installation
+```
+AI-Network-Anomaly-Detector/
+│
+├── app.py                 # Streamlit dashboard
+├── model.py               # Isolation Forest model
+├── live_capture.py        # Live packet capture
+├── network_data.csv       # Sample dataset
+├── requirements.txt
+├── output.png             # Dashboard output
+├── README.md
+└── LICENSE
+```
 
-Clone the repository and run the project:
+---
+
+## How to Run
+
+1. Clone the repository
 
 ```bash
 git clone https://github.com/Mugila-B/AI-Network-Anomaly-Detector.git
+```
+
+2. Navigate to the project
+
+```bash
 cd AI-Network-Anomaly-Detector
+```
+
+3. Install the required packages
+
+```bash
 pip install -r requirements.txt
+```
+
+4. Run the Streamlit application
+
+```bash
 streamlit run app.py
 ```
 
-## Future Improvements
-- Better threat classification
-- Email alert system
-- Database integration
-- Cloud deployment
+---
+
+## Working Principle
+
+1. Captures live network traffic using Scapy or loads sample network data.
+2. Extracts network features such as packet count and traffic statistics.
+3. Trains and applies the Isolation Forest algorithm to learn normal network behavior.
+4. Detects abnormal traffic patterns and classifies them as anomalies.
+5. Displays the results through an interactive Streamlit dashboard with visual charts.
+
+---
+
+## Output
+
+### Network Anomaly Detection Dashboard
+
+<img width="1600" height="721" alt="WhatsApp Image 2026-06-28 at 5 22 46 PM" src="https://github.com/user-attachments/assets/f88f2212-851d-4292-95c4-bf430d9b934a" />
+
+
+---
+
+## Applications
+
+* Network Security Monitoring
+* Intrusion Detection Systems (IDS)
+* Cybersecurity Analysis
+* Traffic Behavior Monitoring
+* Threat Detection and Prevention
+* Educational Machine Learning Projects
+
+---
+
+## Future Enhancements
+
+* Deep Learning-based anomaly detection
+* Email and SMS alert notifications
+* Database integration
+* Cloud deployment
+* Advanced threat classification
+* Real-time logging and reporting
+
+---
 
 ## Author
-Mugi  
+
+**Mugila**
+
 B.Tech Artificial Intelligence and Data Science
 
+---
+
 ## License
+
 This project is licensed under the MIT License.
